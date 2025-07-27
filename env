@@ -1,0 +1,25 @@
+# Database settings
+DB_ENGINE=sqlite+aiosqlite
+DB_DB=./db.sqlite3
+# DB_ENGINE=postgresql+asyncpg
+# DB_USER=postgres
+# DB_PASSWORD=password
+# DB_HOST=localhost
+# DB_PORT=5432
+# DB_DB=mydb
+
+# SQLAlchemy options
+DB_POOL_SIZE=5
+DB_MAX_OVERFLOW=10
+DB_ECHO=False
+
+# TG Bot settings
+TOKEN=*bot_token*
+CHANGE_NAME=false
+NAME='kOchkaBot'
+CHANGE_DESCRIPTION=false
+DESCRIPTION_EN='Your friendly fitness buddy — trainers, groups, and schedules at hand.'
+DESCRIPTION_RU='Твой помощник по фитнесу — тренеры, группы и расписание рядом.'
+CHANGE_ABOUT=false
+ABOUT_EN='kOchkaBot is here to guide you through workouts and find your fitness crew.'
+ABOUT_RU='kOchkaBot — всегда подскажет, где и когда тренировки, и кто тебя поддержит.'
